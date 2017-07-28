@@ -43,11 +43,8 @@ var Wrapper = (function() {
     HockeyWrapper.prototype.getAppsByPage = function (page) {
         var _this = this;
         return new Promise(function (resolve, reject) {
-            var options = _this.createGetAppsRequestOptions(page);
-            request(options, function (error, response, body) {
-                var result = JSON.parse(body);
-                console.log(result)
-                resolve(result);
+            request(_this.createGetAppsRequestOptions(page), function (error, response, body) {
+                resolve(JSON.parse(body));
             });
         });
     };
