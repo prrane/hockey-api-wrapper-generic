@@ -1,2 +1,12 @@
 # hockey-api-wrapper-generic
-A wrapper for Hockey APIs in node
+
+This is a small wrapper for 'GET' methods for HockeyApp. 
+
+## Usage:
+```
+var hockeyWrapper = new HockeyWrapper.Instance(YOUR_HOCKEYAPP_AUTH_TOKEN);  
+```
+
+## Supported Methods:
+
+`getApps()` Get all apps associated with token.

@@ -1,0 +1,23 @@
+{
+  "name": "hockey-api-wrapper-generic",
+  "version": "1.0.0",
+  "description": "A wrapper for Hockey App API (v2)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prrane/hockey-api-wrapper-generic.git"
+  },
+  "keywords": [
+    "node",
+    "hockey"
+  ],
+  "author": "Prashant Rane <prrane@me.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/prrane/hockey-api-wrapper-generic/issues"
+  },
+  "homepage": "https://github.com/prrane/hockey-api-wrapper-generic#readme"
+}
