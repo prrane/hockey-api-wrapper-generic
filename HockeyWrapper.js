@@ -40,7 +40,7 @@ var Wrapper = (function() {
     HockeyWrapper.prototype.createGetCrashesFromAppIdByPageOptions = function(publicIdentifier, appId, page) {
         page = page || 0
         var urlPath = this.GET_APPS_PATH + "/" + publicIdentifier + "/" + this.GET_APP_VERSION_PATH 
-                            + "/" + appId + "/" +  this.GET_APP_CRASHES_PATH + "?" + "page=" + page.toString
+                            + "/" + appId + "/" +  this.GET_APP_CRASHES_PATH + "?" + "page=" + page.toString + "&per_page=100&sort=number_of_crashes&order=desc"
         return this.createRequestOptions(urlPath);
     };
 
