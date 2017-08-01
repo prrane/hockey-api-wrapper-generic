@@ -1,6 +1,6 @@
 {
   "name": "hockey-api-wrapper-generic",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A wrapper for Hockey App API (v2)",
   "main": "index.js",
   "scripts": {
